@@ -11,7 +11,7 @@ import streamlit as st
 import speech_recognition as sr
 # Load the text file and preprocess the data
 
-with open('/Users/test/Documents/youngsheldon.txt', 'r', encoding='utf-8') as f:
+with open('youngsheldon.txt', 'r', encoding='utf-8') as f:
     data = f.read().replace('\n', ' ')
 # Tokenize the text into sentences
 sentences = sent_tokenize(data)
